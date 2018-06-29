@@ -20,6 +20,7 @@ function one () {
   one.classList.add('blue')
 }
 
+// CREATE FUNCTION two HERE
 function two () {
   // First, we have to find the element:
   var two = document.getElementById('two')
@@ -28,8 +29,13 @@ function two () {
   two.classList.add('green')
 }
 
-// CREATE FUNCTION two HERE
-
 // CREATE FUNCTION three HERE
+function three () {
+  // First, we have to find the element:
+  var three = document.getElementById('three')
+
+  // Next, we apply a new CSS class to it:
+  three.classList.add('orange')
+}
 
 // CREATE FUNCTION makeVisible HERE
